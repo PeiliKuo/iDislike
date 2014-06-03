@@ -1,0 +1,1 @@
+var malwaresRef= new Firebase("https://iDislike.firebaseio.com/malwares");
