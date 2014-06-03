@@ -20,6 +20,13 @@
         <![endif]-->
 
         <!-- Active popup to protect users from being disturbed by like button -->
+        <div id="header">
+<img src="icon.png" style="disply:inline"><p>iDislike 我不按讚</p>
+        </div>
+        <hr>
+        <div>You are currently on:
+            <p id="domainName">abcc</p></div>
+        <hr>
         <div id="active">
             <div id="status">
                 <div id="icon"></div>
@@ -35,14 +42,20 @@
                 <div id="site_thumbtail"></div>
             </div>
         </div>
-
+        <hr>
+<div id="userScoreboard" style="height:200px;background:gray;">
+<p>使用者:</p><input>
+<p>檢舉網站:</p>
+<p>檢舉幫助人次:</p>
+</div>
         
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
+        <script src="index.js"></script>
+        <script src="dataBase.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -52,5 +65,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+
     </body>
 </html>
