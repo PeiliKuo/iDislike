@@ -1,0 +1,100 @@
+html,
+button,
+input,
+select,
+textarea {
+    
+}
+
+a:link {
+
+
+color: #000;
+
+text-decoration: none;
+
+}
+
+html {
+    font-size: 1em;
+    width:390px;
+    line-height: 1.4;
+}
+
+#acitve #passive{
+    width:390px;
+    height:400px;
+    background-color: #eee;
+}
+
+
+/*status area*/
+
+#status{
+    width:390px;
+    height:40px;
+    background-color: #fff;
+}
+
+#icon{
+    width: 50px;
+    height:40px;
+    background: url(icon2.png);
+    float:left;
+}
+
+#alert{
+    width: 340px;
+    height:40px;
+    line-height: 40px;
+    float:left;
+}
+
+
+/*recommend area*/
+
+#recommend{
+    width: 370px;
+    height:130px;
+    border-top: 1px dashed #f77d5c;
+}
+
+#row{
+    width: 220px;
+    height: 100px;
+    float: left;
+    padding: 0px 10px 20px 0px;
+}
+
+#site_title{
+    width: 220px;
+    height: 60px;
+    float: left;
+    padding: 20px 10px 10px 10px;
+}
+
+#site_info{
+    width: 180px;
+    height: 20px;
+    float: left;
+    padding: 0px 10px 20px 10px;
+    color:#ddd;
+    font-size: 10pt;
+}
+
+#refresh{
+    width: 16px;
+    height:16px;
+    background: url(refresh.png);
+    float:left;
+}
+
+#site_thumbtail{
+    width:120px;
+    height:100px;
+    float: left;
+    margin: 10px 5px 5px 5px;
+    background: url(ex.png);
+    background-color: #ddd;
+    font:#000;
+}
